@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>STUDENT PORTAL HOMEPAGE</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="head.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Poppins%7CQuicksand:500,700" rel="stylesheet">
+    <style type="text/css">
+    	h3 {
+    		font-size: 20px;
+    		color: #52a3b3;
+    		text-align: left;
+    		text-decoration:none;
+    	}
+    	.logo {
+        float: left;
+        margin-top: 7px;
+        height: 90px;
+        width: 100px;
+      }
+      .logo2 {
+        height: 80px;
+        width: 90px;
+        margin-top: 14px;
+        float: right;
+      }
+      .header {
+        text-align: center;
+        background: #52a3b3;
+      }
+      .content {
+      	text-align: left;
+      }
+      table, td, th {
+      	line-height: 1.85;
+      	margin-right: 380px;
+      	text-align: left;
+      	width: 800px;
+      }
+      .col-sm-6  {
+		line-height: 1.1;
+		text-align: justify;
+		padding-right: 15px;
+		padding-left: 15px;
+		float: left;
+		width: 50%;
+	}
+	.nav-link {
+		text-decoration: none;
+	}
+    </style>
+</head>
+<body>
+	<section class="header">
+      <div class="container-fluid" style="">
+        <div>
+          <a title="www.nitandhra.ac.in" href="https://www.nitandhra.ac.in/main/"><img class="logo" src="logo.jpeg" alt="LOGO"></a>
+          <img class="logo2" src="mhrd.jpeg" alt="">
+          <br />
+          <div>
+            <p style="font-size: 27px; color: white;">NATIONAL INSTITUTE OF TECHNOLOGY ANDHRA PRADESH</p>
+            <p style="font-size: 20px; color: white;">Student and Faculty portal</p>
+          </div>
+        </div>
+      </div>
+      	<nav class="navbar navbar-expand-lg" style="background-color:#b3a852; height: 30px;">
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item dropdown" style="margin-left: 1090px;">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: black;">
+		          FACULTY
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" href="faculty_login.html">Login</a>
+		          <div class="dropdown-divider"></div>
+		          <a class="dropdown-item" href="faculty_signup.html">Signup</a>
+		        </div>
+		      </li>
+		      <li class="nav-item dropdown" style="margin-left: 8px;">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: black;">
+		          STUDENT
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" href="student_login.html">Login</a>
+		          <div class="dropdown-divider"></div>
+		          <a class="dropdown-item" href="student_signup.html">Signup</a>
+		        </div>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
+    </section>
+    <br>
+    <center>
+    <form style="width: 40%; text-align: left;" action="events.html">
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Name</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your name" required="required">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Roll Number</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Roll number" required="required">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Reg Number</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Reg number" required="required">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required="required">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Contact Number</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="9999999999" required="required">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Gender</label>
+        <select class="form-control" id="exampleFormControlSelect2">
+          <option>Male</option>
+          <option>Female</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlSelect1">Semester</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Address</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required="required"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Security Question</label>
+        <select class="form-control" id="exampleFormControlSelect2">
+          <option>Who is your favourite person?</option>
+          <option>What is your pet name?</option>
+          <option>What is your school name?</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Enter answer for your security question</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" required="required">
+      </div>
+      <center><br>
+      <button type="submit" class="btn" style="background: #7952b3; color: white">Submit</button></center>
+      <br>
+      <p>Already have an account? <a href="student_login.html">Login</a></p>
+      <br>
+    </form>
+  </center>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
